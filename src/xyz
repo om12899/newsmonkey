@@ -1,0 +1,33 @@
+import { Route } from "react-router-dom";
+
+<>
+<Route path="/business"><NewsComponent category = {'business'}  country = {'in'} pageSize = {5}/></Route>
+<Route path="/entertainment"><NewsComponent category = {'entertainment'}  country = {'in'} pageSize = {5}/></Route>
+<Route path="/general"><NewsComponent category = {'general'}  country = {'in'} pageSize = {5}/></Route>
+<Route path="/health"><NewsComponent category = {'health'}  country = {'in'} pageSize = {5}/></Route>
+<Route path="/science"><NewsComponent category = {'science'}  country = {'in'} pageSize = {5}/></Route>
+<Route path="/sports"><NewsComponent category = {'sports'}  country = {'in'} pageSize = {5}/></Route>
+<Route path="/technology"><NewsComponent category = {'technology'}  country = {'in'} pageSize = {5}/></Route>
+</>
+      
+      <Route path="/business"><NewsComponent category = {'business'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/entertainment"><NewsComponent category = {'entertainment'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/general"><NewsComponent category = {'general'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/health"><NewsComponent category = {'health'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/science"><NewsComponent category = {'science'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/sports"><NewsComponent category = {'sports'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/technology"><NewsComponent category = {'technology'}  country = {'in'} pageSize = {5}/></Route>
+
+
+      <BrowserRouter>
+      <Navbar/>
+      <Routes>
+      <Route path="/" element={<NewsComponent category = {'general'}  country = {'in'} pageSize = {5}/>}/>
+      <Route path="/general"><NewsComponent category = {'general'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/health"><NewsComponent category = {'health'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/science"><NewsComponent category = {'science'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/sports"><NewsComponent category = {'sports'}  country = {'in'} pageSize = {5}/></Route>
+      <Route path="/technology"><NewsComponent category = {'technology'}  country = {'in'} pageSize = {5}/></Route>
+
+      </Routes>
+      </BrowserRouter>
